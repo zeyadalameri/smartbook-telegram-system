@@ -49,22 +49,22 @@ python launcher.py
 ## 📸 Screenshots
 
 ### 🔐 Login
-![Login](./screenshots/telegram_bot/login.png)
+![Login](https://github.com/zeyadalameri/smartbook-telegram-system/raw/main/screenshots/login.png)
 
-### 🧠 Smart API Login
-![Smart API](./screenshots/telegram_bot/login-smart-api.png)
+### 🧠 Smart API
+![Smart API](https://github.com/zeyadalameri/smartbook-telegram-system/raw/main/screenshots/login-smart-api.png)
 
 ### 🖥️ Dashboard
-![Dashboard](./screenshots/telegram_bot/dashboard.png)
+![Dashboard](https://github.com/zeyadalameri/smartbook-telegram-system/raw/main/screenshots/dashboard.png)
 
 ### 📊 Logs
-![Logs](./screenshots/telegram_bot/log.png)
+![Logs](https://github.com/zeyadalameri/smartbook-telegram-system/raw/main/screenshots/log.png)
 
 ### 📞 Numbers
-![Numbers](./screenshots/telegram_bot/number.png)
+![Numbers](https://github.com/zeyadalameri/smartbook-telegram-system/raw/main/screenshots/number.png)
 
 ### 🚀 Launcher
-![Launcher](./screenshots/telegram_bot/launcher.png)
+![Launcher](https://github.com/zeyadalameri/smartbook-telegram-system/raw/main/screenshots/launcher.png)
 
 ---
 
