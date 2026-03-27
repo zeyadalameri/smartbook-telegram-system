@@ -48,24 +48,23 @@ python launcher.py
 
 ## 📸 Screenshots
 
-### 🔐 Login
+### Login
 ![Login](https://github.com/zeyadalameri/smartbook-telegram-system/raw/main/screenshots/login.png)
 
-### 🧠 Smart API
+### Smart API
 ![Smart API](https://github.com/zeyadalameri/smartbook-telegram-system/raw/main/screenshots/login-smart-api.png)
 
-### 🖥️ Dashboard
+### Dashboard
 ![Dashboard](https://github.com/zeyadalameri/smartbook-telegram-system/raw/main/screenshots/dashboard.png)
 
-### 📊 Logs
+### Logs
 ![Logs](https://github.com/zeyadalameri/smartbook-telegram-system/raw/main/screenshots/log.png)
 
-### 📞 Numbers
+### Numbers
 ![Numbers](https://github.com/zeyadalameri/smartbook-telegram-system/raw/main/screenshots/number.png)
 
-### 🚀 Launcher
+### Launcher
 ![Launcher](https://github.com/zeyadalameri/smartbook-telegram-system/raw/main/screenshots/launcher.png)
-
 ---
 
 ## 👨‍💻 Author
