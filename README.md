@@ -48,25 +48,23 @@ python launcher.py
 
 ## 📸 Screenshots
 
-
 ### 🔐 Login
-![Login](./screenshots/login.png)
+![Login](./screenshots/telegram_bot/login.png)
 
 ### 🧠 Smart API Login
-![Smart API](./screenshots/login-smart-api.png)
+![Smart API](./screenshots/telegram_bot/login-smart-api.png)
 
 ### 🖥️ Dashboard
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./screenshots/telegram_bot/dashboard.png)
 
 ### 📊 Logs
-![Logs](./screenshots/log.png)
+![Logs](./screenshots/telegram_bot/log.png)
 
 ### 📞 Numbers
-![Numbers](./screenshots/number.png)
+![Numbers](./screenshots/telegram_bot/number.png)
 
 ### 🚀 Launcher
-![Launcher](./screenshots/launcher.png)
-
+![Launcher](./screenshots/telegram_bot/launcher.png)
 
 ---
 
