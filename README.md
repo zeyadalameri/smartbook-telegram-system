@@ -48,24 +48,24 @@ python launcher.py
 
 ## 📸 Screenshots
 
+
 ### 🔐 Login
-![Login](screenshots/login.png)
+![Login](./screenshots/login.png)
 
 ### 🧠 Smart API Login
-![Smart API](screenshots/login-smart-api.png)
+![Smart API](./screenshots/login-smart-api.png)
 
 ### 🖥️ Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](./screenshots/dashboard.png)
 
 ### 📊 Logs
-![Logs](screenshots/log.png)
+![Logs](./screenshots/log.png)
 
 ### 📞 Numbers
-![Numbers](screenshots/number.png)
+![Numbers](./screenshots/number.png)
 
 ### 🚀 Launcher
-![Launcher](screenshots/launcher.png)
-
+![Launcher](./screenshots/launcher.png)
 
 
 ---
