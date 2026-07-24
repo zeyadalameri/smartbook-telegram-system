@@ -1,56 +1,33 @@
-# بيانات حساسة
+# Secrets and local configuration
 .env
 *.session
 *.session-journal
+smartbook_token.json
 
-# بيانات المستخدم
+# Runtime data
 messages_data/
 images/
 logs/
 current_session.json
 send_queue.json
 allowed_numbers.json
+login.flag
+logout.flag
 
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
 .Python
+.venv/
+venv/
 
-# IDE
+# Build artifacts
+dist/
+build/
+
+# Editors and operating systems
 .vscode/
 .idea/
 *.swp
 *.swo
-
-
-
-
-
-# Python
-__pycache__/
-*.pyc
-
-# Env
-.env
-
-# Sessions
-*.session
-*.session-journal
-current_session.json
-
-# Tokens
-smartbook_token.json
-
-# Data
-messages_data/
-logs/
-send_queue.json
-
-# Build
-dist/
-build/
-
-# Images
-images/
+.DS_Store
