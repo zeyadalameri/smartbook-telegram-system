@@ -42,7 +42,7 @@ os.makedirs('images', exist_ok=True)
 if not os.path.exists('allowed_numbers.json'):
     with open('allowed_numbers.json', 'w', encoding='utf-8') as f:
         json.dump({
-            "private_chat": ["+967717202209"],
+            "private_chat": [],
             "groups": []
         }, f, ensure_ascii=False, indent=2)
 
@@ -252,7 +252,7 @@ async def send_to_smartbook_api(message_data: dict) -> bool:
 
     logger.log_info(
         "smartbook_api_token_loaded",
-        f"تم تحميل Token: {token[:20]}...",
+        "تم تحميل Token بنجاح",
         {"token_length": len(token)}
     )
 
@@ -360,7 +360,7 @@ async def send_to_smartbook_api(message_data: dict) -> bool:
                 "Token غير صالح أو منتهي (403 Forbidden)",
                 {
                     "status_code": 403,
-                    "token_used": f"{token[:20]}...",
+                    "token_configured": True,
                     "url": PARTNER_API_URL,
                     "suggestion": "تحقق من smartbook_token.json أو سجل دخول جديد",
                 }
