@@ -60,12 +60,12 @@ class HawalaAPI:
         
         Returns:
             dict: {
-                "transfer_number": "123456789",
+                "transfer_number": "example-transfer-id",
                 "amount": 1000,
                 "sender_name": "أحمد",
-                "sender_phone": "+967777777777",
+                "sender_phone": "[redacted]",
                 "receiver_name": "محمد",
-                "receiver_phone": "+967777777778",
+                "receiver_phone": "[redacted]",
                 "status": "pending",
                 "created_at": "2026-01-02 08:00:00"
             }
@@ -166,23 +166,23 @@ class MockHawalaAPI(HawalaAPI):
         super().__init__()
         # قاعدة بيانات وهمية للاختبار
         self.fake_transfers = {
-            "123456789": {
-                "transfer_number": "123456789",
+            "demo-transfer-1": {
+                "transfer_number": "demo-transfer-1",
                 "amount": 1000,
                 "sender_name": "أحمد علي",
-                "sender_phone": "+967777777777",
+                "sender_phone": "[redacted]",
                 "receiver_name": "محمد موسى",
-                "receiver_phone": "+967717202209",
+                "receiver_phone": "[redacted]",
                 "status": "pending",
                 "created_at": "2026-01-02 08:00:00"
             },
-            "987654321": {
-                "transfer_number": "987654321",
+            "demo-transfer-2": {
+                "transfer_number": "demo-transfer-2",
                 "amount": 5000,
                 "sender_name": "سالم حسن",
-                "sender_phone": "+967788888888",
+                "sender_phone": "[redacted]",
                 "receiver_name": "محمد موسى",
-                "receiver_phone": "+967717202209",
+                "receiver_phone": "[redacted]",
                 "status": "pending",
                 "created_at": "2026-01-02 07:30:00"
             }
