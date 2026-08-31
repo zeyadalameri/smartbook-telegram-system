@@ -973,7 +973,7 @@
                     <label style="display: block; margin-bottom: 10px; color: #374151; font-weight: 600; font-size: 14px;">رقم الهاتف</label>
                     <input type="text" class="input-field" id="loginPhone" placeholder="+967XXXXXXXXX" style="width: 100%;">
                     <small style="color: #6b7280; display: block; margin-top: 5px;">
-                        مثال: +967770526248
+                        مثال: [redacted-number]
                     </small>
                 </div>
                 <button class="btn btn-primary" onclick="sendLoginCode()" style="width: 100%; padding: 18px; font-size: 17px; margin-top: 20px;">
@@ -1364,11 +1364,11 @@
         <div style="padding: 25px;">
             <div style="margin-bottom: 20px;">
                 <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #374151;">رقم الحوالة:</label>
-                <input type="text" id="manualTransferNumber" placeholder="123456789" style="width: 100%; padding: 12px 20px; border: 2px solid #e5e7eb; border-radius: 12px; font-size: 15px; font-family: 'Cairo', sans-serif; box-sizing: border-box;">
+                <input type="text" id="manualTransferNumber" placeholder="رقم الحوالة" style="width: 100%; padding: 12px 20px; border: 2px solid #e5e7eb; border-radius: 12px; font-size: 15px; font-family: 'Cairo', sans-serif; box-sizing: border-box;">
             </div>
             <div style="margin-bottom: 20px;">
                 <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #374151;">رقم هاتف المستلم:</label>
-                <input type="text" id="manualReceiverPhone" placeholder="+967777777777" style="width: 100%; padding: 12px 20px; border: 2px solid #e5e7eb; border-radius: 12px; font-size: 15px; font-family: 'Cairo', sans-serif; box-sizing: border-box;">
+                <input type="text" id="manualReceiverPhone" placeholder="رقم هاتف دولي" style="width: 100%; padding: 12px 20px; border: 2px solid #e5e7eb; border-radius: 12px; font-size: 15px; font-family: 'Cairo', sans-serif; box-sizing: border-box;">
             </div>
             <div id="manualClaimResult"></div>
         </div>
@@ -1668,7 +1668,7 @@
                 case 'phone':
                     label.textContent = '📱 رقم الهاتف';
                     input.placeholder = '+967XXXXXXXXX';
-                    hint.textContent = 'مثال: +967770526248';
+                    hint.textContent = 'مثال: رقم هاتف دولي';
                     break;
                 case 'username':
                     label.textContent = '👤 اسم المستخدم';
@@ -2038,7 +2038,7 @@
         }
         
         if (!phone.startsWith('+')) {
-            showLoginError('الرقم يجب أن يبدأ بـ + مثل: +967770526248');
+            showLoginError('الرقم يجب أن يبدأ بعلامة + متبوعة برمز الدولة');
             return;
         }
         
